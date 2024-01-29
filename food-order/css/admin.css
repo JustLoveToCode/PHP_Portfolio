@@ -1,0 +1,199 @@
+/* 
+    Author: Your Name;
+    Theme: Food Order Website Admin;
+    Version: 1.0;
+*/
+
+/* By default, there will be a margin of 8px applied
+on the Chrome Browser, putting the Code Below will
+actually remove the margin and the padding which is
+actually 0px here */
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.wrapper{
+    /* Setting the padding to be 1% on All Sides */
+    padding:1%;
+    /* Set the width to be 80% of the Entire Parent 
+    which is the width of the window */
+    width:80%;
+    /* Adding the Spacing on the Left and Right and
+    Horizontally Centered the Block Element within the
+    Parent Container, this set 0 at the Top and Bottom
+    of the div element here and centered it horizontally
+    on the left and right */
+    margin: 0 auto;
+}
+
+/* Align the text to the center of the Horizontal Screen */
+.text-center{
+    text-align:center;
+}
+
+.clearfix{
+    float:none;
+    clear:both;
+
+}
+
+/* Creating the table of full width of 100% */
+.tbl-full{
+    width:100%;
+}
+
+/* If the width is 0, the 'background-color' will 
+cover just enough of the content here, setting the
+width will allowed the background to 'expand' itself  */
+.tbl-30{
+    width:30%;
+}
+
+/* Targeting the th inside the table */
+table tr th{
+    border-bottom: 1px solid black;
+    padding:1px;
+    text-align:left;
+}
+
+/* Targeting the td inside the table */
+table tr td{
+    padding:1%;
+
+}
+
+
+/* Creating the button using btn-primary class
+of background-color which is blue in color: */
+.btn-primary{
+    background-color:#1e90ff;
+    padding:1%;
+    color:white;
+    border-radius: 5px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn-primary:hover{
+    background-color:#3742fa;
+}
+
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding:1%;
+    color:black;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+.btn-secondary:hover{
+    background-color:#2ed573;
+}
+
+.btn-danger{
+    background-color:#ff6b81;
+    padding:1%;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn-danger:hover{
+    background-color:#ff4757;
+}
+
+.success{
+    color:#2ed573;
+}
+
+.error{
+    color:#ff4757;
+}
+
+/* CSS for Menu */
+/* Adding the border-bottom 
+to the Bottom of the Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+/* Getting the list-style-type to be none */
+.menu ul{
+    list-style-type:none;
+   
+   
+}
+
+/* display:inline: display
+all the descendant of .menu ul li to
+be horizontal in nature */
+.menu ul li{
+    display:inline;
+    padding: 1%;
+}
+
+/* Creating the Properties
+on the anchor tags */
+.menu ul li a{
+    text-decoration:none;
+    font-weight:bold;
+    color:#ff6b81;
+}
+
+/* Creating the Hover Effect */
+.menu ul li a:hover{
+    color:antiquewhite;
+}
+
+/* CSS for main-content */
+.main-content{
+    background-color:#f1f2f6;
+    /* Adding the padding of 3% to left and right
+    and 0 for the top and bottom */
+    padding: 3% 0;
+    
+}
+
+/* This is inside the wrapper class
+and the width of 20% is actually 80% * 20%
+of the div of the wrapper class,
+This will basically float the items to the left */
+.col-4{
+    /* Decreasing the Size of the width from 20% to 18%
+    will make the single Horizontal Block take up 4 Blocks
+    instead of 3 Blocks so that it can accommodate the width of 80% */
+    width:18%;
+    background-color:white;
+    margin:1%;
+    padding:2%;
+    /* This will float the elements all the way to the left */
+    float:left;
+}
+
+/* CSS for Footer */
+.footer{
+    background-color:red;
+    color:white;
+}
+
+/* Creating the CSS for Login */
+.login{
+    /* Creating the Horizontal Width of 20%,
+    The height will be based on the Content itself*/
+    width:20%;
+    /* Creating a border of 1px solid grey */
+    border:1px solid grey;
+    /* Creating the margin of top and bottom of 10%
+    and setting it to auto will basically centered it in the middle Horizontally */
+    margin:10% auto;
+    /* Setting the padding inside the Border */
+    padding:2%;
+  
+}
+
+
